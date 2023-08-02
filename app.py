@@ -34,5 +34,5 @@ def home():
     return render_template('index.html',prediction=prediction[0],image=image)
 
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
